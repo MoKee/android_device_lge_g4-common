@@ -193,8 +193,8 @@ TARGET_RELEASE_CPPFLAGS += -DNEEDS_LGE_RIL_SYMBOLS
 BOARD_NFC_CHIPSET := pn547
 BOARD_NFC_DEVICE := "/dev/pn547"
 
-# CMHW
-BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw/
+# MKHW
+BOARD_HARDWARE_CLASS := $(COMMON_PATH)/mkhw/
 
 # inherit from the proprietary version
 -include vendor/lge/g4-common/BoardConfigVendor.mk
