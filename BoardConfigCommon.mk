@@ -174,11 +174,11 @@ BOARD_RIL_CLASS := ../../../device/lge/g4-common/ril/
 BOARD_NFC_CHIPSET := pn547
 BOARD_NFC_DEVICE := "/dev/pn547"
 
-# CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
+# MKHW
+BOARD_USES_MOKEE_HARDWARE := true
 BOARD_HARDWARE_CLASS := \
-    $(COMMON_PATH)/cmhw \
-    hardware/cyanogen/cmhw
+    $(COMMON_PATH)/mkhw \
+    hardware/mokee/mkhw
 
 # inherit from the proprietary version
 -include vendor/lge/g4-common/BoardConfigVendor.mk
