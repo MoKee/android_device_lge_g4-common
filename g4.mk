@@ -121,6 +121,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 # Thermal
 PRODUCT_PACKAGES += \
     thermanager
@@ -245,5 +249,6 @@ PRODUCT_PACKAGES += \
 
 # Misc
 PRODUCT_PACKAGES += \
-     libcnefeatureconfig \
-     libxml2
+    libcnefeatureconfig \
+    librmnetctl \
+    libxml2
