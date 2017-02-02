@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_lge_g4-common",
+    "target_path": "vendor/lge/g4-common"
+  },
+  {
     "repository": "android_kernel_lge_msm8992",
     "target_path": "kernel/lge/msm8992"
   },
