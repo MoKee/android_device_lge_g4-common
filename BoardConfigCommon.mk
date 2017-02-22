@@ -183,10 +183,8 @@ BOARD_NFC_CHIPSET := pn547
 BOARD_NFC_DEVICE := "/dev/pn547"
 
 # MKHW
+BOARD_HARDWARE_CLASS += $(COMMON_PATH)/mkhw
 BOARD_USES_MOKEE_HARDWARE := true
-BOARD_HARDWARE_CLASS := \
-    $(COMMON_PATH)/mkhw \
-    hardware/mokee/mkhw
 
 # inherit from the proprietary version
 -include vendor/lge/g4-common/BoardConfigVendor.mk
